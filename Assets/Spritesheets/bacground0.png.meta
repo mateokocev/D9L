@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7bfebcfa947caab49aae7abe167fcc90
+guid: 969ad67151a7ac641b8129e70f49637a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1911602397664394741
-    second: Blue_Container_0
+      213: 1746263660352278657
+    second: bacground0_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blue_Container_0
+      name: bacground0_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 96
-        height: 32
+        y: 15
+        width: 817
+        height: 369
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fd3298a040678a10800000000000000
-      internalID: 1911602397664394741
+      spriteID: 18098770c89fb3810800000000000000
+      internalID: 1746263660352278657
       vertices: []
       indices: 
       edges: []
@@ -132,8 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Blue_Container_0: 1911602397664394741
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

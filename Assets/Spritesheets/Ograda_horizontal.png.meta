@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ograda_horizontal_0: -3438178848982907217
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

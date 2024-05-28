@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 7bfebcfa947caab49aae7abe167fcc90
+guid: b660f16551ebea04aaf7633b2b7e7333
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1911602397664394741
-    second: Blue_Container_0
+      213: 5442564171138843532
+    second: Shipyard enemy walking-Sheet_0
+  - first:
+      213: -4764528081092438317
+    second: Shipyard enemy walking-Sheet_1
+  - first:
+      213: -1957617013013504248
+    second: Shipyard enemy walking-Sheet_2
+  - first:
+      213: -1957667583277276648
+    second: Shipyard enemy walking-Sheet_3
+  - first:
+      213: -7767841913056084670
+    second: Shipyard enemy walking-Sheet_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blue_Container_0
+      name: Shipyard enemy walking-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 96
-        height: 32
+        x: 2
+        y: 9
+        width: 27
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fd3298a040678a10800000000000000
-      internalID: 1911602397664394741
+      spriteID: c83cff7174fd78b40800000000000000
+      internalID: 5442564171138843532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard enemy walking-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 7
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d69c1c24fef0edb0800000000000000
+      internalID: -4764528081092438317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard enemy walking-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 9
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f9115d2b525d4e0800000000000000
+      internalID: -1957617013013504248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard enemy walking-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 7
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812e57684b7f4d4e0800000000000000
+      internalID: -1957667583277276648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard enemy walking-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 9
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24db6e49fe4133490800000000000000
+      internalID: -7767841913056084670
       vertices: []
       indices: 
       edges: []
@@ -132,8 +232,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Blue_Container_0: 1911602397664394741
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

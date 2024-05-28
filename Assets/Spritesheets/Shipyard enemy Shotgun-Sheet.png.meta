@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 7bfebcfa947caab49aae7abe167fcc90
+guid: cc595ba03a5a2914ab6adfa9cd4d46f5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1911602397664394741
-    second: Blue_Container_0
+      213: 5880272719814317818
+    second: Shipyard enemy Shotgun-Sheet_0
+  - first:
+      213: -4869683300646118125
+    second: Shipyard enemy Shotgun-Sheet_1
+  - first:
+      213: -9080518995303988485
+    second: Shipyard enemy Shotgun-Sheet_2
+  - first:
+      213: -7601197826461631339
+    second: Shipyard enemy Shotgun-Sheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blue_Container_0
+      name: Shipyard enemy Shotgun-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 96
-        height: 32
+        x: 2
+        y: 5
+        width: 28
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fd3298a040678a10800000000000000
-      internalID: 1911602397664394741
+      spriteID: af6d3f632ecea9150800000000000000
+      internalID: 5880272719814317818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard enemy Shotgun-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d1658b6d86b6cb0800000000000000
+      internalID: -4869683300646118125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard enemy Shotgun-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 5
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf208bc95148bf180800000000000000
+      internalID: -9080518995303988485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard enemy Shotgun-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c784689de138690800000000000000
+      internalID: -7601197826461631339
       vertices: []
       indices: 
       edges: []
@@ -132,8 +207,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Blue_Container_0: 1911602397664394741
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

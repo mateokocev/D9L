@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ograda_vertikal_0: 9030775949155323657
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

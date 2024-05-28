@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 7bfebcfa947caab49aae7abe167fcc90
+guid: c1af2cd083591da4aa6f9a3dd27ed667
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1911602397664394741
-    second: Blue_Container_0
+      213: -4136043111366534648
+    second: Shipyard enemy pistol_0
+  - first:
+      213: -8648288293266378515
+    second: Shipyard enemy pistol_1
+  - first:
+      213: 895374605026610364
+    second: Shipyard enemy pistol_2
+  - first:
+      213: -2442095294678823496
+    second: Shipyard enemy pistol_3
+  - first:
+      213: 1919172197649953958
+    second: Shipyard enemy pistol_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blue_Container_0
+      name: Shipyard enemy pistol_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 96
-        height: 32
+        x: 2
+        y: 5
+        width: 28
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +127,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fd3298a040678a10800000000000000
-      internalID: 1911602397664394741
+      spriteID: 80adb4334b2d996c0800000000000000
+      internalID: -4136043111366534648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard enemy pistol_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de030bc2e9b1bf780800000000000000
+      internalID: -8648288293266378515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard enemy pistol_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 5
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc448995720d6c00800000000000000
+      internalID: 895374605026610364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard enemy pistol_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd040da44feb1ed0800000000000000
+      internalID: -2442095294678823496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard enemy pistol_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 5
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a43bbf02f442aa10800000000000000
+      internalID: 1919172197649953958
       vertices: []
       indices: 
       edges: []
@@ -132,8 +232,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Blue_Container_0: 1911602397664394741
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

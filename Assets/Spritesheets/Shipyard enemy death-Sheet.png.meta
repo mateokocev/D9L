@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 7bfebcfa947caab49aae7abe167fcc90
+guid: 9dbc3f80eb8f3654ba7cca423f3dd7c9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1911602397664394741
-    second: Blue_Container_0
+      213: 5094175644264402626
+    second: Shipyard enemy death-Sheet_0
+  - first:
+      213: 8892838275939328520
+    second: Shipyard enemy death-Sheet_1
+  - first:
+      213: 8304517190577016890
+    second: Shipyard enemy death-Sheet_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blue_Container_0
+      name: Shipyard enemy death-Sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 96
-        height: 32
+        x: 2
+        y: 9
+        width: 27
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fd3298a040678a10800000000000000
-      internalID: 1911602397664394741
+      spriteID: 2ce83d322c522b640800000000000000
+      internalID: 5094175644264402626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard enemy death-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 5
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8026c52bb45b96b70800000000000000
+      internalID: 8892838275939328520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard enemy death-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30d777b2629f3370800000000000000
+      internalID: 8304517190577016890
       vertices: []
       indices: 
       edges: []
@@ -132,8 +182,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Blue_Container_0: 1911602397664394741
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
