@@ -207,7 +207,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shipyard enemy Shotgun-Sheet_0: 5880272719814317818
+      Shipyard enemy Shotgun-Sheet_1: -4869683300646118125
+      Shipyard enemy Shotgun-Sheet_2: -9080518995303988485
+      Shipyard enemy Shotgun-Sheet_3: -7601197826461631339
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

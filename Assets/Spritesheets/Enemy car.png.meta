@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 8b57b7e131050c147b4e3863775197b2
+guid: cfc096d5b32280a4eb02957a06bd8aba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5499447030437624790
-    second: Shipyard enemy AR-Sheet_0
-  - first:
-      213: -1588633150500064248
-    second: Shipyard enemy AR-Sheet_1
-  - first:
-      213: -1642770884321263879
-    second: Shipyard enemy AR-Sheet_2
-  - first:
-      213: -2363167545053784242
-    second: Shipyard enemy AR-Sheet_3
+      213: -6875623420232654312
+    second: Enemy car_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shipyard enemy AR-Sheet_0
+      name: Enemy car_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 5
-        width: 28
-        height: 26
+        x: 26
+        y: 11
+        width: 27
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,74 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2440b9201a0ea3b0800000000000000
-      internalID: -5499447030437624790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shipyard enemy AR-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 2
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 804b80a019a04f9e0800000000000000
-      internalID: -1588633150500064248
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shipyard enemy AR-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 5
-        width: 28
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9fe3da0a594b339e0800000000000000
-      internalID: -1642770884321263879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shipyard enemy AR-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 2
-        width: 28
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e47565c63a7543fd0800000000000000
-      internalID: -2363167545053784242
+      spriteID: 8122dab8de0e490a0800000000000000
+      internalID: -6875623420232654312
       vertices: []
       indices: 
       edges: []
@@ -207,11 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Shipyard enemy AR-Sheet_0: -5499447030437624790
-      Shipyard enemy AR-Sheet_1: -1588633150500064248
-      Shipyard enemy AR-Sheet_2: -1642770884321263879
-      Shipyard enemy AR-Sheet_3: -2363167545053784242
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

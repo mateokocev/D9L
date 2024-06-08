@@ -182,7 +182,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shipyard enemy death-Sheet_0: 5094175644264402626
+      Shipyard enemy death-Sheet_1: 8892838275939328520
+      Shipyard enemy death-Sheet_2: 8304517190577016890
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

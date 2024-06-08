@@ -232,7 +232,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shipyard enemy walking-Sheet_0: 5442564171138843532
+      Shipyard enemy walking-Sheet_1: -4764528081092438317
+      Shipyard enemy walking-Sheet_2: -1957617013013504248
+      Shipyard enemy walking-Sheet_3: -1957667583277276648
+      Shipyard enemy walking-Sheet_4: -7767841913056084670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
