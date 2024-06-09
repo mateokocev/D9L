@@ -157,7 +157,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boss car-Sheet_0: 4286385392869281660
+      Boss car-Sheet_1: -3282576958258883351
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
