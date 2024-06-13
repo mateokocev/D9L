@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Enemy car_0: -6875623420232654312
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
