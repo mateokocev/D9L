@@ -1,0 +1,3415 @@
+fileFormatVersion: 2
+guid: 89566afd46108eb4db7fd7146d2ee64a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6381061753046304027
+    second: Slider-Sheet_0
+  - first:
+      213: -7780701301506402276
+    second: Slider-Sheet_1
+  - first:
+      213: -5010983331190953557
+    second: Slider-Sheet_2
+  - first:
+      213: -2452209094160485357
+    second: Slider-Sheet_3
+  - first:
+      213: -2337650362352596997
+    second: Slider-Sheet_4
+  - first:
+      213: -413075928730916061
+    second: Slider-Sheet_5
+  - first:
+      213: 2023005874010267244
+    second: Slider-Sheet_6
+  - first:
+      213: -3060168723450589938
+    second: Slider-Sheet_7
+  - first:
+      213: 3339966778533684421
+    second: Slider-Sheet_8
+  - first:
+      213: -4795188283596500112
+    second: Slider-Sheet_9
+  - first:
+      213: -4604073924767988557
+    second: Slider-Sheet_10
+  - first:
+      213: 7849101046281372368
+    second: Slider-Sheet_11
+  - first:
+      213: 9035119729006953500
+    second: Slider-Sheet_12
+  - first:
+      213: 1902122367662770223
+    second: Slider-Sheet_13
+  - first:
+      213: -3807752061351556659
+    second: Slider-Sheet_14
+  - first:
+      213: -2377523659230379172
+    second: Slider-Sheet_15
+  - first:
+      213: 7516479346065246668
+    second: Slider-Sheet_16
+  - first:
+      213: -6353364936356841457
+    second: Slider-Sheet_17
+  - first:
+      213: 3906135274364625276
+    second: Slider-Sheet_18
+  - first:
+      213: 6374568240709538537
+    second: Slider-Sheet_19
+  - first:
+      213: -7064495859456917700
+    second: Slider-Sheet_20
+  - first:
+      213: 6485389981941016360
+    second: Slider-Sheet_21
+  - first:
+      213: 4669525605006616868
+    second: Slider-Sheet_22
+  - first:
+      213: -2113474524197845194
+    second: Slider-Sheet_23
+  - first:
+      213: -2422887097122514647
+    second: Slider-Sheet_24
+  - first:
+      213: 3082331161426391691
+    second: Slider-Sheet_25
+  - first:
+      213: 4475013930487165758
+    second: Slider-Sheet_26
+  - first:
+      213: -5377093731241285365
+    second: Slider-Sheet_27
+  - first:
+      213: 1613226815222918005
+    second: Slider-Sheet_28
+  - first:
+      213: -2989274047714528069
+    second: Slider-Sheet_29
+  - first:
+      213: -6884535087861683313
+    second: Slider-Sheet_30
+  - first:
+      213: 4945125524260568085
+    second: Slider-Sheet_31
+  - first:
+      213: 6155765485365484401
+    second: Slider-Sheet_32
+  - first:
+      213: -6471379481824226553
+    second: Slider-Sheet_33
+  - first:
+      213: -5187668595218424911
+    second: Slider-Sheet_34
+  - first:
+      213: 5970305051994576058
+    second: Slider-Sheet_35
+  - first:
+      213: 978274482717790997
+    second: Slider-Sheet_36
+  - first:
+      213: 6031306636629927724
+    second: Slider-Sheet_37
+  - first:
+      213: -3367205925765661002
+    second: Slider-Sheet_38
+  - first:
+      213: 5230821320356033416
+    second: Slider-Sheet_39
+  - first:
+      213: -947995719528183636
+    second: Slider-Sheet_40
+  - first:
+      213: 631024122536281012
+    second: Slider-Sheet_41
+  - first:
+      213: 3615011608373122918
+    second: Slider-Sheet_42
+  - first:
+      213: 7530792320773325719
+    second: Slider-Sheet_43
+  - first:
+      213: -9191507814710467660
+    second: Slider-Sheet_44
+  - first:
+      213: -3695894592168461018
+    second: Slider-Sheet_45
+  - first:
+      213: -4246923335824192735
+    second: Slider-Sheet_46
+  - first:
+      213: -7588773731501497447
+    second: Slider-Sheet_47
+  - first:
+      213: 8574611373371283134
+    second: Slider-Sheet_48
+  - first:
+      213: -1253113577148435450
+    second: Slider-Sheet_49
+  - first:
+      213: 3004669689092491237
+    second: Slider-Sheet_50
+  - first:
+      213: 2089636709691391133
+    second: Slider-Sheet_51
+  - first:
+      213: -7354325353038841608
+    second: Slider-Sheet_52
+  - first:
+      213: -7328511621650726382
+    second: Slider-Sheet_53
+  - first:
+      213: -6132684479057319566
+    second: Slider-Sheet_54
+  - first:
+      213: -7241331544324783580
+    second: Slider-Sheet_55
+  - first:
+      213: 1981203597703433209
+    second: Slider-Sheet_56
+  - first:
+      213: 1412921634803670457
+    second: Slider-Sheet_57
+  - first:
+      213: 4484351294358366026
+    second: Slider-Sheet_58
+  - first:
+      213: -6768287951452776613
+    second: Slider-Sheet_59
+  - first:
+      213: -2928681666127054102
+    second: Slider-Sheet_60
+  - first:
+      213: 7197515788013836497
+    second: Slider-Sheet_61
+  - first:
+      213: 6648005229440105728
+    second: Slider-Sheet_62
+  - first:
+      213: 3803076161385474112
+    second: Slider-Sheet_63
+  - first:
+      213: 8425662083797960994
+    second: Slider-Sheet_64
+  - first:
+      213: -6045905885252980705
+    second: Slider-Sheet_65
+  - first:
+      213: -2692087129045649098
+    second: Slider-Sheet_66
+  - first:
+      213: -3788276098631670866
+    second: Slider-Sheet_67
+  - first:
+      213: -2557077250029434974
+    second: Slider-Sheet_68
+  - first:
+      213: 4587427875559675870
+    second: Slider-Sheet_69
+  - first:
+      213: -1268481030889798829
+    second: Slider-Sheet_70
+  - first:
+      213: -648491473792444445
+    second: Slider-Sheet_71
+  - first:
+      213: 2243760299744584968
+    second: Slider-Sheet_72
+  - first:
+      213: -4159514677175143094
+    second: Slider-Sheet_73
+  - first:
+      213: -1232646246440704941
+    second: Slider-Sheet_74
+  - first:
+      213: -7677006374265839905
+    second: Slider-Sheet_75
+  - first:
+      213: 26391043424564655
+    second: Slider-Sheet_76
+  - first:
+      213: 8341429795963975404
+    second: Slider-Sheet_77
+  - first:
+      213: 4599264858947775576
+    second: Slider-Sheet_78
+  - first:
+      213: 1859042947501962438
+    second: Slider-Sheet_79
+  - first:
+      213: 7791026962450939464
+    second: Slider-Sheet_80
+  - first:
+      213: -3584356168048884194
+    second: Slider-Sheet_81
+  - first:
+      213: -870047058086605655
+    second: Slider-Sheet_82
+  - first:
+      213: -9170997236362205670
+    second: Slider-Sheet_83
+  - first:
+      213: 7974957555315502463
+    second: Slider-Sheet_84
+  - first:
+      213: 1474758942854045890
+    second: Slider-Sheet_85
+  - first:
+      213: 3686983245185233072
+    second: Slider-Sheet_86
+  - first:
+      213: 284893832626852763
+    second: Slider-Sheet_87
+  - first:
+      213: -4411246472547374475
+    second: Slider-Sheet_88
+  - first:
+      213: 3336236118083049386
+    second: Slider-Sheet_89
+  - first:
+      213: -653166953945465644
+    second: Slider-Sheet_90
+  - first:
+      213: -3820271222426404036
+    second: Slider-Sheet_91
+  - first:
+      213: -2554734716630739652
+    second: Slider-Sheet_92
+  - first:
+      213: 6446658858532945097
+    second: Slider-Sheet_93
+  - first:
+      213: -2505000084036358892
+    second: Slider-Sheet_94
+  - first:
+      213: -5864337908104911063
+    second: Slider-Sheet_95
+  - first:
+      213: 3171235325854392578
+    second: Slider-Sheet_96
+  - first:
+      213: 1171203037622851764
+    second: Slider-Sheet_97
+  - first:
+      213: 4197549414394551096
+    second: Slider-Sheet_98
+  - first:
+      213: -3746467731160532362
+    second: Slider-Sheet_99
+  - first:
+      213: -7220862241940524023
+    second: Slider-Sheet_100
+  - first:
+      213: -3124142592897670212
+    second: Slider-Sheet_101
+  - first:
+      213: 610872107550671322
+    second: Slider-Sheet_102
+  - first:
+      213: -349515271471756998
+    second: Slider-Sheet_103
+  - first:
+      213: -5597163740248133104
+    second: Slider-Sheet_104
+  - first:
+      213: 6382234232957193348
+    second: Slider-Sheet_105
+  - first:
+      213: -1500121524981664149
+    second: Slider-Sheet_106
+  - first:
+      213: 3447258075072080882
+    second: Slider-Sheet_107
+  - first:
+      213: -6273877078560278934
+    second: Slider-Sheet_108
+  - first:
+      213: 8165279572990239259
+    second: Slider-Sheet_109
+  - first:
+      213: 4502461962802000988
+    second: Slider-Sheet_110
+  - first:
+      213: 4932855419631461501
+    second: Slider-Sheet_111
+  - first:
+      213: -6113035433611460793
+    second: Slider-Sheet_112
+  - first:
+      213: -3058449991551122684
+    second: Slider-Sheet_113
+  - first:
+      213: 1054648063037947922
+    second: Slider-Sheet_114
+  - first:
+      213: -5378425259054805322
+    second: Slider-Sheet_115
+  - first:
+      213: -8418346771374432812
+    second: Slider-Sheet_116
+  - first:
+      213: 1424214330693604598
+    second: Slider-Sheet_117
+  - first:
+      213: -8164558750435919851
+    second: Slider-Sheet_118
+  - first:
+      213: -6598250632463931211
+    second: Slider-Sheet_119
+  - first:
+      213: 3244215688522306551
+    second: Slider-Sheet_120
+  - first:
+      213: 2096176745450381376
+    second: Slider-Sheet_121
+  - first:
+      213: 6732396713789121603
+    second: Slider-Sheet_122
+  - first:
+      213: 284739126586421222
+    second: Slider-Sheet_123
+  - first:
+      213: 4326262861212259425
+    second: Slider-Sheet_124
+  - first:
+      213: -8561105538606424398
+    second: Slider-Sheet_125
+  - first:
+      213: -6924466141030224346
+    second: Slider-Sheet_126
+  - first:
+      213: -198703300620615523
+    second: Slider-Sheet_127
+  - first:
+      213: 9116687697270388146
+    second: Slider-Sheet_128
+  - first:
+      213: -5560548593518621760
+    second: Slider-Sheet_129
+  - first:
+      213: 2905395887793796106
+    second: Slider-Sheet_130
+  - first:
+      213: -6070571472175770487
+    second: Slider-Sheet_131
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slider-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 10
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1508282bd51e8850800000000000000
+      internalID: 6381061753046304027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c189a44e365650490800000000000000
+      internalID: -7780701301506402276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9a5f8a539657ab0800000000000000
+      internalID: -5010983331190953557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314f49b32d008fdd0800000000000000
+      internalID: -2452209094160485357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf709ee716ffe8fd0800000000000000
+      internalID: -2337650362352596997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32baab2a1a5744af0800000000000000
+      internalID: -413075928730916061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e19e2cf19231c10800000000000000
+      internalID: 2023005874010267244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d87fd62c81885d0800000000000000
+      internalID: -3060168723450589938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c42b14d612f95e20800000000000000
+      internalID: 3339966778533684421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0739d1d79a1147db0800000000000000
+      internalID: -4795188283596500112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4c09aa82b0b10c0800000000000000
+      internalID: -4604073924767988557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 7
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d28fb5b0db9dec60800000000000000
+      internalID: 7849101046281372368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 10
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14459ef581336d70800000000000000
+      internalID: 9035119729006953500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f284ddb2732b56a10800000000000000
+      internalID: 1902122367662770223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9016eaca5282bc0800000000000000
+      internalID: -3807752061351556659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c538c7e14d6510fd0800000000000000
+      internalID: -2377523659230379172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc987c72426ef4860800000000000000
+      internalID: 7516479346065246668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f083700804054d7a0800000000000000
+      internalID: -6353364936356841457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7160212651653630800000000000000
+      internalID: 3906135274364625276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e29aff7a04077850800000000000000
+      internalID: 6374568240709538537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f3ad3f17ed5fd90800000000000000
+      internalID: -7064495859456917700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827a877d3dbb00a50800000000000000
+      internalID: 6485389981941016360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429a20c2ccc7dc040800000000000000
+      internalID: 4669525605006616868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 7
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637895f2e1e6ba2e0800000000000000
+      internalID: -2113474524197845194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 10
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929922da50d206ed0800000000000000
+      internalID: -2422887097122514647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82ffe44cd3a6ca20800000000000000
+      internalID: 3082331161426391691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33bc9bc5717a1e30800000000000000
+      internalID: 4475013930487165758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0922619db9b065b0800000000000000
+      internalID: -5377093731241285365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b2f7fbd35536610800000000000000
+      internalID: 1613226815222918005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb47ea96717f386d0800000000000000
+      internalID: -2989274047714528069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8baa4c30d73570a0800000000000000
+      internalID: -6884535087861683313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51cb443c67d90a440800000000000000
+      internalID: 4945125524260568085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bd1d3281cad6550800000000000000
+      internalID: 6155765485365484401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7039d1be5aa0136a0800000000000000
+      internalID: -6471379481824226553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bb5e89e5e2b108b0800000000000000
+      internalID: -5187668595218424911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 7
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab45bd010d8cad250800000000000000
+      internalID: 5970305051994576058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 10
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513193b7577839d00800000000000000
+      internalID: 978274482717790997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2768c74e6183b350800000000000000
+      internalID: 6031306636629927724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6beb52dfc084541d0800000000000000
+      internalID: -3367205925765661002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8837c5bd64c979840800000000000000
+      internalID: 5230821320356033416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca88ee07aea08d2f0800000000000000
+      internalID: -947995719528183636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b34a7c9819d1c800800000000000000
+      internalID: 631024122536281012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6675ef797e91b2230800000000000000
+      internalID: 3615011608373122918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7930fe447bfb28860800000000000000
+      internalID: 7530792320773325719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3a4f95754317080800000000000000
+      internalID: -9191507814710467660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62df28a337b85bcc0800000000000000
+      internalID: -3695894592168461018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bc1eb2ab5ef05c0800000000000000
+      internalID: -4246923335824192735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 7
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993a90d8f724fa690800000000000000
+      internalID: -7588773731501497447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 10
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6d1d42d932ff670800000000000000
+      internalID: 8574611373371283134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60439d247db0c9ee0800000000000000
+      internalID: -1253113577148435450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7cdbda92bb2b920800000000000000
+      internalID: 3004669689092491237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c75ce1481effc10800000000000000
+      internalID: 2089636709691391133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f878796e0030f990800000000000000
+      internalID: -7354325353038841608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212cf2b1285eb4a90800000000000000
+      internalID: -7328511621650726382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279ac3a65f354eaa0800000000000000
+      internalID: -6132684479057319566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422c0bf935f918b90800000000000000
+      internalID: -7241331544324783580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fbc6dcdc26ae7b10800000000000000
+      internalID: 1981203597703433209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bddfe9adb4bb9310800000000000000
+      internalID: 1412921634803670457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a472b4c3ebd9b3e30800000000000000
+      internalID: 4484351294358366026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 7
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57d914d7f53212a0800000000000000
+      internalID: -6768287951452776613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 10
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea3c4e9a8b3b57d0800000000000000
+      internalID: -2928681666127054102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d894d1a976b2e360800000000000000
+      internalID: 7197515788013836497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d77b59885724c50800000000000000
+      internalID: 6648005229440105728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04823258e9d37c430800000000000000
+      internalID: 3803076161385474112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229414e2607fde470800000000000000
+      internalID: 8425662083797960994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f107d0441a0a81ca0800000000000000
+      internalID: -6045905885252980705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63935d8f409c3aad0800000000000000
+      internalID: -2692087129045649098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3e4fd95f65d6bc0800000000000000
+      internalID: -3788276098631670866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a743c00acf638cd0800000000000000
+      internalID: -2557077250029434974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7957bf851d9af30800000000000000
+      internalID: 4587427875559675870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3530e7d1933756ee0800000000000000
+      internalID: -1268481030889798829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 7
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e75bb0c0781007f0800000000000000
+      internalID: -648491473792444445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 10
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805666bca10732f10800000000000000
+      internalID: 2243760299744584968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45b3fc607f6646c0800000000000000
+      internalID: -4159514677175143094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354ee2b05c2c4eee0800000000000000
+      internalID: -1232646246440704941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde997b806bc57590800000000000000
+      internalID: -7677006374265839905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5b290a382cd5000800000000000000
+      internalID: 26391043424564655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6ba436436b2c370800000000000000
+      internalID: 8341429795963975404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ce481750fd3df30800000000000000
+      internalID: 4599264858947775576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4bc0c06b5acc910800000000000000
+      internalID: 1859042947501962438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ef0646eb94f1c60800000000000000
+      internalID: 7791026962450939464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1647fe4e0fc14ec0800000000000000
+      internalID: -3584356168048884194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9accfd47fc8fce3f0800000000000000
+      internalID: -870047058086605655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 7
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16aa828a921ab080800000000000000
+      internalID: -9170997236362205670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 10
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7de567b4adbcae60800000000000000
+      internalID: 7974957555315502463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c06526e175677410800000000000000
+      internalID: 1474758942854045890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0351e1abbca2330800000000000000
+      internalID: 3686983245185233072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b935c6c6e6524f300800000000000000
+      internalID: 284893832626852763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a6e1b74ba18c2c0800000000000000
+      internalID: -4411246472547374475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa71b21c211bc4e20800000000000000
+      internalID: 3336236118083049386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc7e03bd1c7fe6f0800000000000000
+      internalID: -653166953945465644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b70a9509babfac0800000000000000
+      internalID: -3820271222426404036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35dddf8f42cb8cd0800000000000000
+      internalID: -2554734716630739652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc3bf27312277950800000000000000
+      internalID: 6446658858532945097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41d60b412b37c3dd0800000000000000
+      internalID: -2505000084036358892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 7
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 927ac804ebfad9ea0800000000000000
+      internalID: -5864337908104911063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 10
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201a8b81abd720c20800000000000000
+      internalID: 3171235325854392578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b85e5915f2f04010800000000000000
+      internalID: 1171203037622851764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bd22ce3f0b04a30800000000000000
+      internalID: 4197549414394551096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a76b9b27fd10cc0800000000000000
+      internalID: -3746467731160532362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904ba197c085acb90800000000000000
+      internalID: -7220862241940524023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3aaaa3dd0d4a4d0800000000000000
+      internalID: -3124142592897670212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 2108
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad180cdf1f04a7800800000000000000
+      internalID: 610872107550671322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a390a5066b5462bf0800000000000000
+      internalID: -349515271471756998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01230d8bb31e252b0800000000000000
+      internalID: -5597163740248133104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 2133
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c40c86830429850800000000000000
+      internalID: 6382234232957193348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66fc87cb6f7e2be0800000000000000
+      internalID: -1500121524981664149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 2149
+        y: 7
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fba4c574fe17df20800000000000000
+      internalID: 3447258075072080882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 10
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66f2f79906bee8a0800000000000000
+      internalID: -6273877078560278934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1226d79286e05170800000000000000
+      internalID: 8165279572990239259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c547583dc45fb7e30800000000000000
+      internalID: 4502461962802000988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d746e776ed5057440800000000000000
+      internalID: 4932855419631461501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 2342
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f763059a22a2ba0800000000000000
+      internalID: -6113035433611460793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 2350
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4038c42efe33e85d0800000000000000
+      internalID: -3058449991551122684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 2358
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2104e6853dcd2ae00800000000000000
+      internalID: 1054648063037947922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6becc0719befb55b0800000000000000
+      internalID: -5378425259054805322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 2375
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd9b28b6360c2b80800000000000000
+      internalID: -8418346771374432812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 2383
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f453015363d3c310800000000000000
+      internalID: 1424214330693604598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 2391
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518b57cf219a1be80800000000000000
+      internalID: -8164558750435919851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 7
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8adf0420e4e64a0800000000000000
+      internalID: -6598250632463931211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 10
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f31f19eaf4c50d20800000000000000
+      internalID: 3244215688522306551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040210bd4ad171d10800000000000000
+      internalID: 2096176745450381376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344686434274e6d50800000000000000
+      internalID: 6732396713789121603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efa6dd1ab893f300800000000000000
+      internalID: 284739126586421222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16495879629f90c30800000000000000
+      internalID: 4326262861212259425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be1cbe0fd7d03980800000000000000
+      internalID: -8561105538606424398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e6cac6bba57ef90800000000000000
+      internalID: -6924466141030224346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d908fce96601e3df0800000000000000
+      internalID: -198703300620615523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5b9fb882bf48e70800000000000000
+      internalID: 9116687697270388146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 2633
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb4607e386f4d2b0800000000000000
+      internalID: -5560548593518621760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 5
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0474df9a2a025820800000000000000
+      internalID: 2905395887793796106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slider-Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 2649
+        y: 7
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984d759c86ff0cba0800000000000000
+      internalID: -6070571472175770487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
