@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sidewalk_0: -1134441375532829494
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

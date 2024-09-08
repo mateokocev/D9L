@@ -282,7 +282,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Knife enemy swing-Sheet_0: -3350569707095024851
+      Knife enemy swing-Sheet_1: -7796877384926956414
+      Knife enemy swing-Sheet_2: -6536409944105376448
+      Knife enemy swing-Sheet_3: -2767742752183443278
+      Knife enemy swing-Sheet_4: 6901384211667069822
+      Knife enemy swing-Sheet_5: 1673371733591759581
+      Knife enemy swing-Sheet_6: -5847280899361834489
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

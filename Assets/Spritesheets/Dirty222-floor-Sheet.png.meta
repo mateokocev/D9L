@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dirty222-floor-Sheet_0: 8289026256596076223
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

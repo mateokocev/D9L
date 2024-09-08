@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Main menu, new game hover-Sheet_0: 1638374519648202792
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

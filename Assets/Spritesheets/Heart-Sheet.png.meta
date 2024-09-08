@@ -182,7 +182,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Heart-Sheet_0: 7107508412977418053
+      Heart-Sheet_1: 4409817262345531807
+      Heart-Sheet_2: -6632522883082577772
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

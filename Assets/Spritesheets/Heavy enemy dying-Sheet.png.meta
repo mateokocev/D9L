@@ -207,7 +207,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Heavy enemy dying-Sheet_0: -4605572750424906872
+      Heavy enemy dying-Sheet_1: 1970723838677461905
+      Heavy enemy dying-Sheet_2: -4830684032979528211
+      Heavy enemy dying-Sheet_3: 4733173246780270778
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

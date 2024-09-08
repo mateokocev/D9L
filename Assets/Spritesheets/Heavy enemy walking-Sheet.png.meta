@@ -307,7 +307,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Heavy enemy walking-Sheet_0: -8825388003527675336
+      Heavy enemy walking-Sheet_1: -8649521192189264688
+      Heavy enemy walking-Sheet_2: -2514748776110576164
+      Heavy enemy walking-Sheet_3: 255237852285436224
+      Heavy enemy walking-Sheet_4: 5805850877165022266
+      Heavy enemy walking-Sheet_5: 2620112299491703221
+      Heavy enemy walking-Sheet_6: -3912176326161729375
+      Heavy enemy walking-Sheet_7: -7412083177431609738
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -307,7 +307,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Knife enemy walking-Sheet_0: 7440091127084962028
+      Knife enemy walking-Sheet_1: 608861389802882975
+      Knife enemy walking-Sheet_2: -992750261893570021
+      Knife enemy walking-Sheet_3: -9113178269558126698
+      Knife enemy walking-Sheet_4: 8063016812795392779
+      Knife enemy walking-Sheet_5: 6693951239416656872
+      Knife enemy walking-Sheet_6: -46458546718999060
+      Knife enemy walking-Sheet_7: 4443079719284779328
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
