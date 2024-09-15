@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fa3edbddb271e104697ac6e0fe02ee05
+guid: 2823330f876ab17408aaf55135912133
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7872722273471896646
-    second: Desk_0
+      213: -1375971878143046439
+    second: Motorcycle boss head_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Desk_0
+      name: Motorcycle boss head_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 8
-        width: 29
-        height: 19
+        x: 7
+        y: 10
+        width: 80
+        height: 82
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64c199d3237814d60800000000000000
-      internalID: 7872722273471896646
+      spriteID: 9dc4b56fdd097ece0800000000000000
+      internalID: -1375971878143046439
       vertices: []
       indices: 
       edges: []
@@ -132,8 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Desk_0: 7872722273471896646
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

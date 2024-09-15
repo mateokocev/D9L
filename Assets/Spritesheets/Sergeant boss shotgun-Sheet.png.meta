@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: fa3edbddb271e104697ac6e0fe02ee05
+guid: 84543ecaaceca8543908c0d5ab6945c0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7872722273471896646
-    second: Desk_0
+      213: -3109896055593809322
+    second: Sergeant boss shotgun-Sheet_0
+  - first:
+      213: -4030430295932359910
+    second: Sergeant boss shotgun-Sheet_1
+  - first:
+      213: 6407688591824775871
+    second: Sergeant boss shotgun-Sheet_2
+  - first:
+      213: -711043271703024591
+    second: Sergeant boss shotgun-Sheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Desk_0
+      name: Sergeant boss shotgun-Sheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 8
-        width: 29
-        height: 19
+        x: 2
+        y: 5
+        width: 28
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64c199d3237814d60800000000000000
-      internalID: 7872722273471896646
+      spriteID: 65a41fda30e67d4d0800000000000000
+      internalID: -3109896055593809322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sergeant boss shotgun-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1baafefff80118c0800000000000000
+      internalID: -4030430295932359910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sergeant boss shotgun-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 5
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbae90b23deace850800000000000000
+      internalID: 6407688591824775871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sergeant boss shotgun-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 2
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ca53269edd126f0800000000000000
+      internalID: -711043271703024591
       vertices: []
       indices: 
       edges: []
@@ -132,8 +207,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Desk_0: 7872722273471896646
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

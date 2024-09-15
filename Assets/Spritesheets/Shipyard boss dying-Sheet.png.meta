@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: fa3edbddb271e104697ac6e0fe02ee05
+guid: 7682ae3ff53469349a612cda29422177
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7872722273471896646
-    second: Desk_0
+      213: -10273991558145130
+    second: Shipyard boss dying-Sheet_0
+  - first:
+      213: -947450647869263439
+    second: Shipyard boss dying-Sheet_1
+  - first:
+      213: 7871153518316101285
+    second: Shipyard boss dying-Sheet_2
+  - first:
+      213: 546074049593623822
+    second: Shipyard boss dying-Sheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +109,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Desk_0
+      name: Shipyard boss dying-Sheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 8
-        width: 29
-        height: 19
+        x: 4
+        y: 6
+        width: 23
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64c199d3237814d60800000000000000
-      internalID: 7872722273471896646
+      spriteID: 69b50ceebdf7bdff0800000000000000
+      internalID: -10273991558145130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard boss dying-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 6
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1f983d7aaf9d2f0800000000000000
+      internalID: -947450647869263439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard boss dying-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae1cc7fb64fb3d60800000000000000
+      internalID: 7871153518316101285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shipyard boss dying-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e054613747b049700800000000000000
+      internalID: 546074049593623822
       vertices: []
       indices: 
       edges: []
@@ -132,8 +207,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Desk_0: 7872722273471896646
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
