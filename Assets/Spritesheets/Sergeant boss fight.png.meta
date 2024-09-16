@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sergeant boss fight_0: 4872765443442936492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

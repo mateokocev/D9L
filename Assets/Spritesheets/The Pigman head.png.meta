@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      The Pigman head_0: 4429142589881566080
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -207,7 +207,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sergeant boss shotgun-Sheet_0: -3109896055593809322
+      Sergeant boss shotgun-Sheet_1: -4030430295932359910
+      Sergeant boss shotgun-Sheet_2: 6407688591824775871
+      Sergeant boss shotgun-Sheet_3: -711043271703024591
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

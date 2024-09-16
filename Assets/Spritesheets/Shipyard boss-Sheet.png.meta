@@ -307,7 +307,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shipyard boss-Sheet_0: -5817799281971422786
+      Shipyard boss-Sheet_1: -4388137755831641071
+      Shipyard boss-Sheet_2: 9092971705674148100
+      Shipyard boss-Sheet_3: 744425239899926793
+      Shipyard boss-Sheet_4: -4518857543408011200
+      Shipyard boss-Sheet_5: -1429635998597472408
+      Shipyard boss-Sheet_6: -816026283946520778
+      Shipyard boss-Sheet_7: 6949613587357419412
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

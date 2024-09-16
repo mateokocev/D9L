@@ -207,7 +207,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      The Pigman death-Sheet_0: -5973587215719420487
+      The Pigman death-Sheet_1: 1231368297443270798
+      The Pigman death-Sheet_2: -4758117611981600193
+      The Pigman death-Sheet_3: 926476813877078710
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

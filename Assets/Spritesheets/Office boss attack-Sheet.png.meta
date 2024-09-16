@@ -307,7 +307,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Office boss attack-Sheet_0: -4879389612036605038
+      Office boss attack-Sheet_1: -5396821129728992061
+      Office boss attack-Sheet_2: 7163237108702245305
+      Office boss attack-Sheet_3: -7980203458597852117
+      Office boss attack-Sheet_4: -4712754733437819301
+      Office boss attack-Sheet_5: 7379940962111584351
+      Office boss attack-Sheet_6: 5492798427059391804
+      Office boss attack-Sheet_7: 8423201101060275367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

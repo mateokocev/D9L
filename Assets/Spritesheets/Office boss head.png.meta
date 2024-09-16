@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Office boss head_0: -7118930794501933161
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Motorcycle boss head_0: -1375971878143046439
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -257,7 +257,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      The Pigman attack-Sheet_0: 6245663266832737693
+      The Pigman attack-Sheet_1: 7507323671573596484
+      The Pigman attack-Sheet_2: -670324225217587600
+      The Pigman attack-Sheet_3: 2396552342511413241
+      The Pigman attack-Sheet_4: -2738251368895021749
+      The Pigman attack-Sheet_5: 8007085551651534725
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

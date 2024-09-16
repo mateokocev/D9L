@@ -207,7 +207,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Office boss death-Sheet_0: -8472981469061152872
+      Office boss death-Sheet_1: -7642371018890640518
+      Office boss death-Sheet_2: 2829680342531358106
+      Office boss death-Sheet_3: 4239419513542831971
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

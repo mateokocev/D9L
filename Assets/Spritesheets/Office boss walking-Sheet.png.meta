@@ -307,7 +307,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Office boss walking-Sheet_0: -254550162725713573
+      Office boss walking-Sheet_1: 8793799725211363635
+      Office boss walking-Sheet_2: 8023218045826679502
+      Office boss walking-Sheet_3: -6628570931949341777
+      Office boss walking-Sheet_4: -2555524873203925785
+      Office boss walking-Sheet_5: -5007624409918313624
+      Office boss walking-Sheet_6: -6606803717336535981
+      Office boss walking-Sheet_7: 5663751790064062561
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

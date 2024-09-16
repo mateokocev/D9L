@@ -232,7 +232,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sergeant boss-Sheet_0: 7229874721629539784
+      Sergeant boss-Sheet_1: -6969189292882471001
+      Sergeant boss-Sheet_2: -309105951242887805
+      Sergeant boss-Sheet_3: 2174201198018878813
+      Sergeant boss-Sheet_4: 1818523035983036631
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

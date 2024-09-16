@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Captain Ahab head_0: -4535719901522077254
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -6,11 +6,12 @@ public class EnemyTracking : MonoBehaviour
 {
     public Transform player;
     public float viewDistance = 10f;
-    public float attackRadius = 6f;      // Enemy attacks within 8f radius
-    public float dashDistance = 12f;     // Fixed dash distance
+    public float attackRadius = 7f;
+    public float dashDistance = 12f;
     public float dashSpeed = 50f;
     public float dashCooldown = 1f;
     public float fieldOfViewAngle = 95f;
+    public float rotationSpeed = 60f;
     public LayerMask obstacleMask;
     public LayerMask playerMask;
     private NavMeshAgent agent;
@@ -39,9 +40,10 @@ public class EnemyTracking : MonoBehaviour
         {
             isLockedOn = true;
 
+            RotateTowardsPlayer();
+
             float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-            // Start attack (dash) if within 8f radius and cooldown is finished
             if (distanceToPlayer <= attackRadius && !isDashing && Time.time >= lastDashTime + dashCooldown)
             {
                 StartCoroutine(PrepareAndDash());
@@ -49,7 +51,7 @@ public class EnemyTracking : MonoBehaviour
 
             if (!isDashing)
             {
-                agent.SetDestination(player.position); // Follow the player
+                agent.SetDestination(player.position);
             }
         }
 
@@ -57,6 +59,14 @@ public class EnemyTracking : MonoBehaviour
         {
             PerformDash();
         }
+    }
+
+    private void RotateTowardsPlayer()
+    {
+        Vector2 directionToPlayer = (player.position - transform.position).normalized;
+        float angle = Mathf.Atan2(directionToPlayer.y, directionToPlayer.x) * Mathf.Rad2Deg - 90f;
+        Quaternion targetRotation = Quaternion.Euler(new Vector3(0, 0, angle));
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
 
     private void CheckLineOfSight()
@@ -104,17 +114,15 @@ public class EnemyTracking : MonoBehaviour
     {
         agent.isStopped = true;
 
-        // Wait in place for 0.75 seconds (3/4 of a second) before dashing
         yield return new WaitForSeconds(0.75f);
 
-        // After waiting, perform the dash
         DashTowardsPlayer();
     }
 
     private void DashTowardsPlayer()
     {
         Vector2 directionToPlayer = (player.position - transform.position).normalized;
-        dashTarget = transform.position + (Vector3)(directionToPlayer * dashDistance);  // Fixed dash distance of 15f
+        dashTarget = transform.position + (Vector3)(directionToPlayer * dashDistance); 
 
         agent.isStopped = true;
 
@@ -126,7 +134,6 @@ public class EnemyTracking : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, dashTarget, dashSpeed * Time.deltaTime);
 
-        // If enemy has reached the dash target, stop dashing and resume normal movement
         if (Vector3.Distance(transform.position, dashTarget) <= 0.1f)
         {
             isDashing = false;

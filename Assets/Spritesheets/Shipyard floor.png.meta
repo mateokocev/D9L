@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shipyard floor_0: -3105584378323969277
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

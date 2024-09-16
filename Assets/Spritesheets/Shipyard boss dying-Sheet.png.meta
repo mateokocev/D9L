@@ -207,7 +207,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Shipyard boss dying-Sheet_0: -10273991558145130
+      Shipyard boss dying-Sheet_1: -947450647869263439
+      Shipyard boss dying-Sheet_2: 7871153518316101285
+      Shipyard boss dying-Sheet_3: 546074049593623822
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

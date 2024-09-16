@@ -307,7 +307,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      The Pigman-Sheet_0: -5694402879264137187
+      The Pigman-Sheet_1: -4818152641780022259
+      The Pigman-Sheet_2: -3963716052236669433
+      The Pigman-Sheet_3: -8206393783284013125
+      The Pigman-Sheet_4: -2631487575494283227
+      The Pigman-Sheet_5: -7761424678002070535
+      The Pigman-Sheet_6: -956994617933597936
+      The Pigman-Sheet_7: 1320040454974651236
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
