@@ -20,6 +20,11 @@ public class SniperBullet : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
+            PlayerHealth playerHealth = collision.collider.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(damage);
+            }
             Destroy(gameObject);
         }
         else if (collision.collider.CompareTag("Wall"))
@@ -27,4 +32,5 @@ public class SniperBullet : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
 }

@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8527674836434927801}
   - component: {fileID: 5294873903380076335}
   - component: {fileID: 5188431953059031790}
+  - component: {fileID: 6433136114061219392}
   m_Layer: 9
   m_Name: Rifle Enemy
-  m_TagString: Enemy
+  m_TagString: RifleEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -177,6 +178,19 @@ MonoBehaviour:
   playerMask:
     serializedVersion: 2
     m_Bits: 256
+--- !u!114 &6433136114061219392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752923033071655827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d45d0e96e14764a91b89b97a0b5c19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 2
 --- !u!1 &4569941944515400913
 GameObject:
   m_ObjectHideFlags: 0

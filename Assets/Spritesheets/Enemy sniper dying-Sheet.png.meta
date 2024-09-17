@@ -182,7 +182,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Enemy sniper dying-Sheet_0: 6823180175216230092
+      Enemy sniper dying-Sheet_1: -1108748312549246880
+      Enemy sniper dying-Sheet_2: 542265153380662602
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
