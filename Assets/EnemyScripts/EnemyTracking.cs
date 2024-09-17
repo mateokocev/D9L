@@ -15,6 +15,9 @@ public class EnemyTracking : MonoBehaviour
     public LayerMask obstacleMask;
     public LayerMask playerMask;
     private NavMeshAgent agent;
+    private Collider2D enemyCollider;
+    private Animator animator;
+    private MeleeEnemyHealth enemyHealth;
 
     private bool playerInSight = false;
     private bool isLockedOn = false;
@@ -28,47 +31,77 @@ public class EnemyTracking : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+
+        enemyCollider = GetComponent<Collider2D>();
+        animator = GetComponent<Animator>();
+        enemyHealth = GetComponent<MeleeEnemyHealth>();
+        animator.SetBool("isWalking", false);
+
     }
 
     private void Update()
     {
-        if (!isLockedOn)
+
+        if (!enemyHealth.GetLivingState())
         {
-            CheckLineOfSight();
+            StopDash();
+            isLockedOn = false;
+            agent.isStopped = true;
+            enemyCollider.enabled = false;
         }
-
-        if (playerInSight || isLockedOn)
+        else
         {
-            isLockedOn = true;
-            RotateTowardsLastKnownPosition();
 
-            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-
-            if (distanceToPlayer <= attackRadius && !isDashing && Time.time >= lastDashTime + dashCooldown && HasClearLineOfSight())
+            if (!isLockedOn)
             {
-                StartCoroutine(PrepareAndDash());
+                CheckLineOfSight();
             }
 
-            if (!isDashing)
+            if (playerInSight || isLockedOn)
             {
-                agent.SetDestination(player.position);
-            }
-        }
+                isLockedOn = true;
+                RotateTowardsLastKnownPosition();
 
-        if (isDashing)
-        {
-            Dash();
+                float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
+                if (distanceToPlayer > attackRadius && !isDashing)
+                {
+                    animator.SetBool("isWalking", true);
+                }
+                else
+                {
+                    animator.SetBool("isWalking", false);
+                }
+
+                if (distanceToPlayer <= attackRadius && !isDashing && Time.time >= lastDashTime + dashCooldown && HasClearLineOfSight())
+                {
+                    StartCoroutine(PrepareAndDash());
+                }
+
+                if (!isDashing)
+                {
+                    agent.SetDestination(player.position);
+                }
+            }
+
+            if (isDashing)
+            {
+                Dash();
+            }
         }
     }
 
     private IEnumerator PrepareAndDash()
     {
         agent.isStopped = true;
+        animator.SetBool("isCharging", true);
         yield return new WaitForSeconds(0.75f);
         lastKnownPlayerPosition = player.position;
         SetDashTarget();
         isDashing = true;
         lastDashTime = Time.time;
+        animator.SetBool("isCharging", false);
+        animator.SetBool("isAttacking", true);
     }
 
     private void SetDashTarget()
@@ -92,6 +125,7 @@ public class EnemyTracking : MonoBehaviour
         isDashing = false;
         agent.isStopped = false;
         agent.SetDestination(player.position);
+        animator.SetBool("isAttacking", false);
     }
 
     private void RotateTowardsLastKnownPosition()
@@ -158,6 +192,19 @@ public class EnemyTracking : MonoBehaviour
             {
                 StopDash();
             }
+        }
+        if (collision.collider.CompareTag("Player"))
+        {
+            PlayerHealth playerHealth = collision.collider.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(2);
+            }
+            Destroy(gameObject);
+        }
+        else if (collision.collider.CompareTag("Wall"))
+        {
+            Destroy(gameObject);
         }
     }
 
