@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class ShotgunBullet : MonoBehaviour
+public class SniperBullet : MonoBehaviour
 {
-    public float speed = 20f;
+    public float speed = 100f;
     public float lifetime = 2f;
-    public int damage = 1;
+    public int damage = 2;
 
     private void Start()
     {
@@ -20,7 +20,6 @@ public class ShotgunBullet : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            Debug.Log("Player hit! Damage: " + damage);
             Destroy(gameObject);
         }
         else if (collision.collider.CompareTag("Wall"))

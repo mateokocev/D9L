@@ -21,6 +21,7 @@ public class EnemyTracking : MonoBehaviour
     private bool isDashing = false;
     private Vector3 dashTarget;
     private float lastDashTime = -Mathf.Infinity;
+    private Vector3 lastKnownPlayerPosition;
 
     private void Start()
     {
@@ -39,12 +40,11 @@ public class EnemyTracking : MonoBehaviour
         if (playerInSight || isLockedOn)
         {
             isLockedOn = true;
-
-            RotateTowardsPlayer();
+            RotateTowardsLastKnownPosition();
 
             float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-            if (distanceToPlayer <= attackRadius && !isDashing && Time.time >= lastDashTime + dashCooldown)
+            if (distanceToPlayer <= attackRadius && !isDashing && Time.time >= lastDashTime + dashCooldown && HasClearLineOfSight())
             {
                 StartCoroutine(PrepareAndDash());
             }
@@ -57,13 +57,46 @@ public class EnemyTracking : MonoBehaviour
 
         if (isDashing)
         {
-            PerformDash();
+            Dash();
         }
     }
 
-    private void RotateTowardsPlayer()
+    private IEnumerator PrepareAndDash()
     {
-        Vector2 directionToPlayer = (player.position - transform.position).normalized;
+        agent.isStopped = true;
+        yield return new WaitForSeconds(0.75f);
+        lastKnownPlayerPosition = player.position;
+        SetDashTarget();
+        isDashing = true;
+        lastDashTime = Time.time;
+    }
+
+    private void SetDashTarget()
+    {
+        Vector2 directionToLastKnownPosition = (lastKnownPlayerPosition - transform.position).normalized;
+        dashTarget = transform.position + (Vector3)(directionToLastKnownPosition * dashDistance);
+    }
+
+    private void Dash()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, dashTarget, dashSpeed * Time.deltaTime);
+
+        if (Vector3.Distance(transform.position, dashTarget) <= 0.1f)
+        {
+            StopDash();
+        }
+    }
+
+    private void StopDash()
+    {
+        isDashing = false;
+        agent.isStopped = false;
+        agent.SetDestination(player.position);
+    }
+
+    private void RotateTowardsLastKnownPosition()
+    {
+        Vector2 directionToPlayer = (lastKnownPlayerPosition - transform.position).normalized;
         float angle = Mathf.Atan2(directionToPlayer.y, directionToPlayer.x) * Mathf.Rad2Deg - 90f;
         Quaternion targetRotation = Quaternion.Euler(new Vector3(0, 0, angle));
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
@@ -79,24 +112,18 @@ public class EnemyTracking : MonoBehaviour
         {
             RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer, viewDistance, obstacleMask | playerMask);
             Debug.DrawRay(transform.position, directionToPlayer * viewDistance, hit.collider == null ? Color.green : Color.red);
-            Debug.Log(hit.collider);
-            if (hit.collider.gameObject.layer != LayerMask.NameToLayer("Obstacles"))
+            if (hit.collider != null && hit.collider.gameObject.layer != LayerMask.NameToLayer("Obstacles"))
             {
-                float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-                if (distanceToPlayer <= viewDistance)
-                {
-                    RaycastHit2D playerHit = Physics2D.Raycast(transform.position, directionToPlayer, viewDistance, playerMask);
-                    Debug.DrawRay(transform.position, directionToPlayer * viewDistance, playerHit.collider != null && playerHit.collider.CompareTag("Player") ? Color.blue : Color.yellow);
+                RaycastHit2D playerHit = Physics2D.Raycast(transform.position, directionToPlayer, viewDistance, playerMask);
+                Debug.DrawRay(transform.position, directionToPlayer * viewDistance, playerHit.collider != null && playerHit.collider.CompareTag("Player") ? Color.blue : Color.yellow);
 
-                    if (playerHit.collider != null && playerHit.collider.CompareTag("Player"))
-                    {
-                        playerInSight = true;
-                        Debug.Log("player found!");
-                    }
-                    else
-                    {
-                        playerInSight = false;
-                    }
+                if (playerHit.collider != null && playerHit.collider.CompareTag("Player"))
+                {
+                    playerInSight = true;
+                }
+                else
+                {
+                    playerInSight = false;
                 }
             }
             else
@@ -110,34 +137,27 @@ public class EnemyTracking : MonoBehaviour
         }
     }
 
-    private IEnumerator PrepareAndDash()
-    {
-        agent.isStopped = true;
-
-        yield return new WaitForSeconds(0.75f);
-
-        DashTowardsPlayer();
-    }
-
-    private void DashTowardsPlayer()
+    private bool HasClearLineOfSight()
     {
         Vector2 directionToPlayer = (player.position - transform.position).normalized;
-        dashTarget = transform.position + (Vector3)(directionToPlayer * dashDistance); 
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer, attackRadius, obstacleMask | playerMask);
 
-        agent.isStopped = true;
+        if (hit.collider != null && hit.collider.CompareTag("Player"))
+        {
+            return true;
+        }
 
-        isDashing = true;
-        lastDashTime = Time.time;
+        return false;
     }
 
-    private void PerformDash()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        transform.position = Vector3.MoveTowards(transform.position, dashTarget, dashSpeed * Time.deltaTime);
-
-        if (Vector3.Distance(transform.position, dashTarget) <= 0.1f)
+        if (isDashing)
         {
-            isDashing = false;
-            agent.isStopped = false;
+            if (collision.collider.CompareTag("Player") || collision.collider.CompareTag("Wall"))
+            {
+                StopDash();
+            }
         }
     }
 

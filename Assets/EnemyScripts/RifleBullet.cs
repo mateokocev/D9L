@@ -20,7 +20,6 @@ public class RifleBullet : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            Debug.Log("Player hit! Damage: " + damage);
             Destroy(gameObject);
         }
         else if (collision.collider.CompareTag("Wall"))

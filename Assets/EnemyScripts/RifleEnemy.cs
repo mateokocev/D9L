@@ -45,13 +45,13 @@ public class RifleEnemy : MonoBehaviour
 
             float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-            if (distanceToPlayer <= shootingRange)
+            if (distanceToPlayer <= shootingRange && HasClearLineOfSight())
             {
                 agent.isStopped = true;
 
                 if (Time.time >= lastBurstTime + burstCooldown && !isShootingBurst)
                 {
-                    StartCoroutine(ShootBurst()); // Corrected coroutine usage
+                    StartCoroutine(ShootBurst());
                 }
             }
             else
@@ -105,6 +105,19 @@ public class RifleEnemy : MonoBehaviour
         {
             playerInSight = false;
         }
+    }
+
+    private bool HasClearLineOfSight()
+    {
+        Vector2 directionToPlayer = (player.position - transform.position).normalized;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer, shootingRange, obstacleMask | playerMask);
+
+        if (hit.collider != null && hit.collider.CompareTag("Player"))
+        {
+            return true;
+        }
+
+        return false;
     }
 
     private IEnumerator ShootBurst()

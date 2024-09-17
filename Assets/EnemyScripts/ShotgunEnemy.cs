@@ -12,7 +12,7 @@ public class ShotgunEnemy : MonoBehaviour
     public float bulletSpeed = 20f;
     public int bulletsPerShot = 5;
     public float bulletSpreadAngle = 15f;
-    public float rotationSpeed = 60f; 
+    public float rotationSpeed = 60f;
     public LayerMask obstacleMask;
     public LayerMask playerMask;
     private NavMeshAgent agent;
@@ -30,7 +30,6 @@ public class ShotgunEnemy : MonoBehaviour
 
     private void Update()
     {
-
         if (!isLockedOn)
         {
             CheckLineOfSight();
@@ -39,12 +38,11 @@ public class ShotgunEnemy : MonoBehaviour
         if (playerInSight || isLockedOn)
         {
             isLockedOn = true;
-
             RotateTowardsPlayer();
 
             float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-            if (distanceToPlayer <= shootingRange)
+            if (distanceToPlayer <= shootingRange && HasClearLineOfSight())
             {
                 agent.isStopped = true;
                 ShootAtPlayer();
@@ -100,6 +98,19 @@ public class ShotgunEnemy : MonoBehaviour
         {
             playerInSight = false;
         }
+    }
+
+    private bool HasClearLineOfSight()
+    {
+        Vector2 directionToPlayer = (player.position - transform.position).normalized;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer, shootingRange, obstacleMask | playerMask);
+
+        if (hit.collider != null && hit.collider.CompareTag("Player"))
+        {
+            return true;
+        }
+
+        return false;
     }
 
     private void ShootAtPlayer()

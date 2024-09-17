@@ -4,7 +4,7 @@ public class PistolBullet : MonoBehaviour
 {
     public float speed = 30f;
     public float lifetime = 2f;
-    public int damage = 10;
+    public int damage = 1;
 
     private void Start()
     {
@@ -20,7 +20,6 @@ public class PistolBullet : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            Debug.Log("Player hit! Damage: " + damage);
             Destroy(gameObject);
         }
         else if (collision.collider.CompareTag("Wall"))
