@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Locker room_0: -4963678798511177282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

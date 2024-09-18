@@ -9,7 +9,7 @@ public class RifleEnemy : MonoBehaviour
     public float shootingRange = 10f;
     public float burstCooldown = 0.75f;
     public GameObject bulletPrefab;
-    public Transform bulletSpawnPoint;
+    public Transform rifleBulletSpawnPoint;
     public float bulletSpeed = 35f;
     public float timeBetweenShots = 0.1f;
     public int bulletsPerBurst = 3;
@@ -17,6 +17,9 @@ public class RifleEnemy : MonoBehaviour
     public LayerMask obstacleMask;
     public LayerMask playerMask;
     private NavMeshAgent agent;
+    private Collider2D enemyCollider;
+    private Animator animator;
+    private RifleEnemyHealth rifleEnemyHealth;
 
     private bool playerInSight = false;
     private bool isLockedOn = false;
@@ -28,36 +31,53 @@ public class RifleEnemy : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+
+        enemyCollider = GetComponent<Collider2D>();
+        animator = GetComponent<Animator>();
+        rifleEnemyHealth = GetComponent<RifleEnemyHealth>();
+        animator.SetBool("isWalking", false);
     }
 
     private void Update()
     {
-        if (!isLockedOn)
+        if (!rifleEnemyHealth.GetLivingState())
         {
-            CheckLineOfSight();
+            isLockedOn = false;
+            agent.isStopped = true;
+            enemyCollider.enabled = false;
         }
-
-        if (playerInSight || isLockedOn)
+        else
         {
-            isLockedOn = true;
 
-            RotateTowardsPlayer();
-
-            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-
-            if (distanceToPlayer <= shootingRange)
+            if (!isLockedOn)
             {
-                agent.isStopped = true;
-
-                if (Time.time >= lastBurstTime + burstCooldown && !isShootingBurst)
-                {
-                    StartCoroutine(ShootBurst()); // Corrected coroutine usage
-                }
+                CheckLineOfSight();
             }
-            else
+
+            if (playerInSight || isLockedOn)
             {
-                agent.isStopped = false;
-                agent.SetDestination(player.position);
+                isLockedOn = true;
+
+                RotateTowardsPlayer();
+
+                float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
+                if (distanceToPlayer <= shootingRange && HasClearLineOfSight())
+                {
+                    agent.isStopped = true;
+                    animator.SetBool("isWalking", false);
+
+                    if (Time.time >= lastBurstTime + burstCooldown && !isShootingBurst)
+                    {
+                        StartCoroutine(ShootBurst());
+                    }
+                }
+                else
+                {
+                    agent.isStopped = false;
+                    animator.SetBool("isWalking", true);
+                    agent.SetDestination(player.position);
+                }
             }
         }
     }
@@ -107,6 +127,19 @@ public class RifleEnemy : MonoBehaviour
         }
     }
 
+    private bool HasClearLineOfSight()
+    {
+        Vector2 directionToPlayer = (player.position - transform.position).normalized;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer, shootingRange, obstacleMask | playerMask);
+
+        if (hit.collider != null && hit.collider.CompareTag("Player"))
+        {
+            return true;
+        }
+
+        return false;
+    }
+
     private IEnumerator ShootBurst()
     {
         isShootingBurst = true;
@@ -123,8 +156,8 @@ public class RifleEnemy : MonoBehaviour
 
     private void ShootBullet()
     {
-        Vector2 directionToPlayer = (player.position - bulletSpawnPoint.position).normalized;
-        GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, Quaternion.identity);
+        Vector2 directionToPlayer = (player.position - rifleBulletSpawnPoint.position).normalized;
+        GameObject bullet = Instantiate(bulletPrefab, rifleBulletSpawnPoint.position, Quaternion.identity);
         bullet.transform.up = directionToPlayer;
     }
 

@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -307,7 +307,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Enemy sniper-Sheet_0: 1287385108785520312
+      Enemy sniper-Sheet_1: -7869880147027302366
+      Enemy sniper-Sheet_2: -3346388799542557362
+      Enemy sniper-Sheet_3: 1496222216220914027
+      Enemy sniper-Sheet_4: 686063323777190796
+      Enemy sniper-Sheet_5: 2478574249298304681
+      Enemy sniper-Sheet_6: 7457935268852228662
+      Enemy sniper-Sheet_7: -7459931746447452814
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

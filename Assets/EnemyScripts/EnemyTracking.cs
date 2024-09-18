@@ -15,55 +15,122 @@ public class EnemyTracking : MonoBehaviour
     public LayerMask obstacleMask;
     public LayerMask playerMask;
     private NavMeshAgent agent;
+    private Collider2D enemyCollider;
+    private Animator animator;
+    private MeleeEnemyHealth enemyHealth;
 
     private bool playerInSight = false;
     private bool isLockedOn = false;
     private bool isDashing = false;
     private Vector3 dashTarget;
     private float lastDashTime = -Mathf.Infinity;
+    private Vector3 lastKnownPlayerPosition;
 
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+
+        enemyCollider = GetComponent<Collider2D>();
+        animator = GetComponent<Animator>();
+        enemyHealth = GetComponent<MeleeEnemyHealth>();
+        animator.SetBool("isWalking", false);
+
     }
 
     private void Update()
     {
-        if (!isLockedOn)
+
+        if (!enemyHealth.GetLivingState())
         {
-            CheckLineOfSight();
+            StopDash();
+            isLockedOn = false;
+            agent.isStopped = true;
+            enemyCollider.enabled = false;
         }
-
-        if (playerInSight || isLockedOn)
+        else
         {
-            isLockedOn = true;
 
-            RotateTowardsPlayer();
-
-            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-
-            if (distanceToPlayer <= attackRadius && !isDashing && Time.time >= lastDashTime + dashCooldown)
+            if (!isLockedOn)
             {
-                StartCoroutine(PrepareAndDash());
+                CheckLineOfSight();
             }
 
-            if (!isDashing)
+            if (playerInSight || isLockedOn)
             {
-                agent.SetDestination(player.position);
-            }
-        }
+                isLockedOn = true;
+                RotateTowardsLastKnownPosition();
 
-        if (isDashing)
-        {
-            PerformDash();
+                float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
+                if (distanceToPlayer > attackRadius && !isDashing)
+                {
+                    animator.SetBool("isWalking", true);
+                }
+                else
+                {
+                    animator.SetBool("isWalking", false);
+                }
+
+                if (distanceToPlayer <= attackRadius && !isDashing && Time.time >= lastDashTime + dashCooldown && HasClearLineOfSight())
+                {
+                    StartCoroutine(PrepareAndDash());
+                }
+
+                if (!isDashing)
+                {
+                    agent.SetDestination(player.position);
+                }
+            }
+
+            if (isDashing)
+            {
+                Dash();
+            }
         }
     }
 
-    private void RotateTowardsPlayer()
+    private IEnumerator PrepareAndDash()
     {
-        Vector2 directionToPlayer = (player.position - transform.position).normalized;
+        agent.isStopped = true;
+        animator.SetBool("isCharging", true);
+        yield return new WaitForSeconds(0.75f);
+        lastKnownPlayerPosition = player.position;
+        SetDashTarget();
+        isDashing = true;
+        lastDashTime = Time.time;
+        animator.SetBool("isCharging", false);
+        animator.SetBool("isAttacking", true);
+    }
+
+    private void SetDashTarget()
+    {
+        Vector2 directionToLastKnownPosition = (lastKnownPlayerPosition - transform.position).normalized;
+        dashTarget = transform.position + (Vector3)(directionToLastKnownPosition * dashDistance);
+    }
+
+    private void Dash()
+    {
+        transform.position = Vector3.MoveTowards(transform.position, dashTarget, dashSpeed * Time.deltaTime);
+
+        if (Vector3.Distance(transform.position, dashTarget) <= 0.1f)
+        {
+            StopDash();
+        }
+    }
+
+    private void StopDash()
+    {
+        isDashing = false;
+        agent.isStopped = false;
+        agent.SetDestination(player.position);
+        animator.SetBool("isAttacking", false);
+    }
+
+    private void RotateTowardsLastKnownPosition()
+    {
+        Vector2 directionToPlayer = (lastKnownPlayerPosition - transform.position).normalized;
         float angle = Mathf.Atan2(directionToPlayer.y, directionToPlayer.x) * Mathf.Rad2Deg - 90f;
         Quaternion targetRotation = Quaternion.Euler(new Vector3(0, 0, angle));
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
@@ -79,24 +146,18 @@ public class EnemyTracking : MonoBehaviour
         {
             RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer, viewDistance, obstacleMask | playerMask);
             Debug.DrawRay(transform.position, directionToPlayer * viewDistance, hit.collider == null ? Color.green : Color.red);
-            Debug.Log(hit.collider);
-            if (hit.collider.gameObject.layer != LayerMask.NameToLayer("Obstacles"))
+            if (hit.collider != null && hit.collider.gameObject.layer != LayerMask.NameToLayer("Obstacles"))
             {
-                float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-                if (distanceToPlayer <= viewDistance)
-                {
-                    RaycastHit2D playerHit = Physics2D.Raycast(transform.position, directionToPlayer, viewDistance, playerMask);
-                    Debug.DrawRay(transform.position, directionToPlayer * viewDistance, playerHit.collider != null && playerHit.collider.CompareTag("Player") ? Color.blue : Color.yellow);
+                RaycastHit2D playerHit = Physics2D.Raycast(transform.position, directionToPlayer, viewDistance, playerMask);
+                Debug.DrawRay(transform.position, directionToPlayer * viewDistance, playerHit.collider != null && playerHit.collider.CompareTag("Player") ? Color.blue : Color.yellow);
 
-                    if (playerHit.collider != null && playerHit.collider.CompareTag("Player"))
-                    {
-                        playerInSight = true;
-                        Debug.Log("player found!");
-                    }
-                    else
-                    {
-                        playerInSight = false;
-                    }
+                if (playerHit.collider != null && playerHit.collider.CompareTag("Player"))
+                {
+                    playerInSight = true;
+                }
+                else
+                {
+                    playerInSight = false;
                 }
             }
             else
@@ -110,34 +171,40 @@ public class EnemyTracking : MonoBehaviour
         }
     }
 
-    private IEnumerator PrepareAndDash()
-    {
-        agent.isStopped = true;
-
-        yield return new WaitForSeconds(0.75f);
-
-        DashTowardsPlayer();
-    }
-
-    private void DashTowardsPlayer()
+    private bool HasClearLineOfSight()
     {
         Vector2 directionToPlayer = (player.position - transform.position).normalized;
-        dashTarget = transform.position + (Vector3)(directionToPlayer * dashDistance); 
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer, attackRadius, obstacleMask | playerMask);
 
-        agent.isStopped = true;
+        if (hit.collider != null && hit.collider.CompareTag("Player"))
+        {
+            return true;
+        }
 
-        isDashing = true;
-        lastDashTime = Time.time;
+        return false;
     }
 
-    private void PerformDash()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        transform.position = Vector3.MoveTowards(transform.position, dashTarget, dashSpeed * Time.deltaTime);
-
-        if (Vector3.Distance(transform.position, dashTarget) <= 0.1f)
+        if (isDashing)
         {
-            isDashing = false;
-            agent.isStopped = false;
+            if (collision.collider.CompareTag("Player") || collision.collider.CompareTag("Wall"))
+            {
+                StopDash();
+            }
+        }
+        if (collision.collider.CompareTag("Player"))
+        {
+            PlayerHealth playerHealth = collision.collider.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(2);
+            }
+            Destroy(gameObject);
+        }
+        else if (collision.collider.CompareTag("Wall"))
+        {
+            Destroy(gameObject);
         }
     }
 

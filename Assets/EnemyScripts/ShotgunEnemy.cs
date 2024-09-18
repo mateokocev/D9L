@@ -8,14 +8,17 @@ public class ShotgunEnemy : MonoBehaviour
     public float shootingRange = 6f;
     public float shootingCooldown = 1f;
     public GameObject bulletPrefab;
-    public Transform bulletSpawnPoint;
+    public Transform shotgunBulletSpawnPoint;
     public float bulletSpeed = 20f;
     public int bulletsPerShot = 5;
     public float bulletSpreadAngle = 15f;
-    public float rotationSpeed = 60f; 
+    public float rotationSpeed = 60f;
     public LayerMask obstacleMask;
     public LayerMask playerMask;
     private NavMeshAgent agent;
+    private Collider2D enemyCollider;
+    private Animator animator;
+    private ShotgunEnemyHealth shotgunEnemyHealth;
 
     private bool playerInSight = false;
     private bool isLockedOn = false;
@@ -26,35 +29,50 @@ public class ShotgunEnemy : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+
+        enemyCollider = GetComponent<Collider2D>();
+        animator = GetComponent<Animator>();
+        shotgunEnemyHealth = GetComponent<ShotgunEnemyHealth>();
+        animator.SetBool("isWalking", false);
     }
 
     private void Update()
     {
-
-        if (!isLockedOn)
+        if (!shotgunEnemyHealth.GetLivingState())
         {
-            CheckLineOfSight();
+            isLockedOn = false;
+            agent.isStopped = true;
+            enemyCollider.enabled = false;
+        }
+        else
+        {
+            if (!isLockedOn)
+            {
+                CheckLineOfSight();
+            }
+
+            if (playerInSight || isLockedOn)
+            {
+                isLockedOn = true;
+                RotateTowardsPlayer();
+
+                float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
+                if (distanceToPlayer <= shootingRange && HasClearLineOfSight())
+                {
+                    agent.isStopped = true;
+                    animator.SetBool("isWalking", false);
+                    ShootAtPlayer();
+                }
+                else
+                {
+                    agent.isStopped = false;
+                    animator.SetBool("isWalking", true);
+                    agent.SetDestination(player.position);
+                }
+            }
         }
 
-        if (playerInSight || isLockedOn)
-        {
-            isLockedOn = true;
-
-            RotateTowardsPlayer();
-
-            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-
-            if (distanceToPlayer <= shootingRange)
-            {
-                agent.isStopped = true;
-                ShootAtPlayer();
-            }
-            else
-            {
-                agent.isStopped = false;
-                agent.SetDestination(player.position);
-            }
-        }
     }
 
     private void RotateTowardsPlayer()
@@ -102,6 +120,19 @@ public class ShotgunEnemy : MonoBehaviour
         }
     }
 
+    private bool HasClearLineOfSight()
+    {
+        Vector2 directionToPlayer = (player.position - transform.position).normalized;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer, shootingRange, obstacleMask | playerMask);
+
+        if (hit.collider != null && hit.collider.CompareTag("Player"))
+        {
+            return true;
+        }
+
+        return false;
+    }
+
     private void ShootAtPlayer()
     {
         if (Time.time >= lastShotTime + shootingCooldown)
@@ -116,7 +147,7 @@ public class ShotgunEnemy : MonoBehaviour
         for (int i = 0; i < bulletsPerShot; i++)
         {
             float randomAngle = Random.Range(-bulletSpreadAngle / 2f, bulletSpreadAngle / 2f);
-            Vector2 directionToPlayer = (player.position - bulletSpawnPoint.position).normalized;
+            Vector2 directionToPlayer = (player.position - shotgunBulletSpawnPoint.position).normalized;
             Vector2 bulletDirection = RotateVector2(directionToPlayer, randomAngle);
             ShootBullet(bulletDirection);
         }
@@ -124,7 +155,7 @@ public class ShotgunEnemy : MonoBehaviour
 
     private void ShootBullet(Vector2 direction)
     {
-        GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, Quaternion.identity);
+        GameObject bullet = Instantiate(bulletPrefab, shotgunBulletSpawnPoint.position, Quaternion.identity);
         bullet.transform.up = direction;
     }
 
