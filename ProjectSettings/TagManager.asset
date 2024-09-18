@@ -12,6 +12,7 @@ TagManager:
   - RifleEnemy
   - ShotgunEnemy
   - SniperEnemy
+  - Car
   layers:
   - Default
   - TransparentFX
@@ -20,11 +21,11 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - Car
   - Player
   - Enemy
   - Obstacles
-  - 
+  - Cesta
   - 
   - 
   - 
