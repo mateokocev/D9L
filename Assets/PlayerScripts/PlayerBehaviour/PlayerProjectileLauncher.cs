@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class PlayerProjectileLauncher : MonoBehaviour
 {
-
     public GameObject pistolProjectilePrefab;
     public GameObject arProjectilePrefab;
     public GameObject shotgunProjectilePrefab;
@@ -17,41 +16,44 @@ public class PlayerProjectileLauncher : MonoBehaviour
     private float lastShotgunBullet;
     private float shotgunFireDelay = 1f;
 
-    private WeaponType lastPickedUpWeapon = WeaponType.Pistol;  // Pištolj je osnovna vrijednost
-
+    private WeaponType lastPickedUpWeapon = WeaponType.Pistol;
     private PlayerProjectileGenerator playerProjectileGenerator;
+
+    private int arBulletCount = 0;
+    private int shotgunShotCount = 0;
+    private int maxARBullets = 20;
+    private int maxShotgunShots = 6;
 
     void Start()
     {
-
         playerProjectileGenerator = new PlayerProjectileGenerator(pistolProjectilePrefab, arProjectilePrefab, shotgunProjectilePrefab);
     }
 
     void Update()
     {
-
         if (Input.GetMouseButtonDown(0) && lastPickedUpWeapon == WeaponType.AR)
         {
-
             SetFiringModeTrue();
         }
         else if (Input.GetMouseButtonDown(0) && lastPickedUpWeapon != WeaponType.AR)
         {
-
-            if(Time.time - lastPistolBullet > pistolFireDelay && lastPickedUpWeapon == WeaponType.Pistol)
+            if (Time.time - lastPistolBullet > pistolFireDelay && lastPickedUpWeapon == WeaponType.Pistol)
             {
-
                 PlayerProjectileLaunch();
                 lastPistolBullet = Time.time;
             }
 
             if (Time.time - lastShotgunBullet > shotgunFireDelay && lastPickedUpWeapon == WeaponType.Shotgun)
             {
-
                 for (int i = 0; i < 9; i++)
                 {
-
                     PlayerProjectileLaunch();
+                }
+                shotgunShotCount++;
+                if (shotgunShotCount >= maxShotgunShots)
+                {
+                    lastPickedUpWeapon = WeaponType.Pistol;
+                    shotgunShotCount = 0;
                 }
                 lastShotgunBullet = Time.time;
             }
@@ -59,16 +61,20 @@ public class PlayerProjectileLauncher : MonoBehaviour
 
         if (Input.GetMouseButtonUp(0) && lastPickedUpWeapon == WeaponType.AR)
         {
-
             SetFiringModeFalse();
         }
         else if (isFiringAR && lastPickedUpWeapon == WeaponType.AR)
         {
-
             if (Time.time - lastARBullet >= arFireDelay)
             {
-
                 PlayerProjectileLaunch();
+                arBulletCount++;
+                if (arBulletCount >= maxARBullets)
+                {
+                    lastPickedUpWeapon = WeaponType.Pistol;
+                    arBulletCount = 0;
+                    SetFiringModeFalse();
+                }
                 lastARBullet = Time.time;
             }
         }
@@ -76,40 +82,34 @@ public class PlayerProjectileLauncher : MonoBehaviour
 
     void PlayerProjectileLaunch()
     {
-
         GameObject projectile = playerProjectileGenerator.CreateProjectile(lastPickedUpWeapon);
-
         if (projectile != null)
         {
-
             projectile.transform.position = transform.position;
         }
     }
 
     public void SetFiringModeTrue()
     {
-
         isFiringAR = true;
     }
 
     public void SetFiringModeFalse()
     {
-
         isFiringAR = false;
     }
 
     public void SetWeaponType(WeaponType weaponType)
     {
-
         lastPickedUpWeapon = weaponType;
     }
 
     public WeaponType GetWeaponType()
     {
-
         return lastPickedUpWeapon;
     }
 }
+
 
 public class PlayerProjectileGenerator
 {

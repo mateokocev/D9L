@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 1752923033071655827}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -444.3549, y: 1353.4298, z: 0}
+  m_LocalPosition: {x: -444.7, y: 1354.38, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -168,7 +168,7 @@ MonoBehaviour:
   shootingRange: 10
   burstCooldown: 0.75
   bulletPrefab: {fileID: 7881394357113344575, guid: 1b7b52965b3f95b47a95d452760826b1, type: 3}
-  bulletSpawnPoint: {fileID: 2748454346239229786}
+  rifleBulletSpawnPoint: {fileID: 2748454346239229786}
   bulletSpeed: 35
   timeBetweenShots: 0.1
   bulletsPerBurst: 3
@@ -192,6 +192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 2
+  rifleWeaponChangePrefab: {fileID: 1993843891591806091, guid: e5d6cb378a65ad34da11e129c14b9856, type: 3}
 --- !u!95 &2844117872905415337
 Animator:
   serializedVersion: 7
@@ -224,7 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2748454346239229786}
   m_Layer: 9
-  m_Name: bulletSpawnPoint
+  m_Name: rifleBulletSpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

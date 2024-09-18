@@ -8,6 +8,8 @@ public class RifleEnemyHealth : MonoBehaviour
 
     private bool livingState = true;
 
+    public GameObject rifleWeaponChangePrefab;
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -31,6 +33,16 @@ public class RifleEnemyHealth : MonoBehaviour
 
         animator.SetBool("isWalking", false);
         animator.SetBool("isDead", true);
+
+        if (Random.Range(0f, 1f) <= 0.1f)
+        {
+            DropRifleWeaponChange();
+        }
+    }
+
+    void DropRifleWeaponChange()
+    {
+        Instantiate(rifleWeaponChangePrefab, transform.position, Quaternion.identity);
     }
 
     public bool GetLivingState()

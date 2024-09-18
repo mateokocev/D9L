@@ -9,7 +9,7 @@ public class RifleEnemy : MonoBehaviour
     public float shootingRange = 10f;
     public float burstCooldown = 0.75f;
     public GameObject bulletPrefab;
-    public Transform bulletSpawnPoint;
+    public Transform rifleBulletSpawnPoint;
     public float bulletSpeed = 35f;
     public float timeBetweenShots = 0.1f;
     public int bulletsPerBurst = 3;
@@ -156,8 +156,8 @@ public class RifleEnemy : MonoBehaviour
 
     private void ShootBullet()
     {
-        Vector2 directionToPlayer = (player.position - bulletSpawnPoint.position).normalized;
-        GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, Quaternion.identity);
+        Vector2 directionToPlayer = (player.position - rifleBulletSpawnPoint.position).normalized;
+        GameObject bullet = Instantiate(bulletPrefab, rifleBulletSpawnPoint.position, Quaternion.identity);
         bullet.transform.up = directionToPlayer;
     }
 

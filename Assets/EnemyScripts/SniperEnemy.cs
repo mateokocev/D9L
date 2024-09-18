@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class SniperEnemy : MonoBehaviour
 {
@@ -12,33 +13,52 @@ public class SniperEnemy : MonoBehaviour
     public float fieldOfViewAngle = 95f;
     public float rotationSpeed = 120f;
     public LineRenderer lineRenderer;
+    private Collider2D enemyCollider;
+    private Animator animator;
+    private SniperEnemyHealth sniperEnemyHealth;
 
     private bool isLockedOn = false;
     private float lastShotTime = -Mathf.Infinity;
 
+    private void Start()
+    {
+        enemyCollider = GetComponent<Collider2D>();
+        animator = GetComponent<Animator>();
+        sniperEnemyHealth = GetComponent<SniperEnemyHealth>();
+        animator.SetBool("isDead", false);
+    }
+
     private void Update()
     {
-        if (!isLockedOn)
+        if (!sniperEnemyHealth.GetLivingState())
         {
-            CheckLineOfSight();
-        }
-
-        if (isLockedOn)
-        {
-            RotateTowardsPlayer();
-
-            DrawLaserLine();
-
-            if (Time.time >= lastShotTime + shootingCooldown && HasClearLineOfSight())
-            {
-                Shoot();
-            }
+            isLockedOn = false;
+            enemyCollider.enabled = false;
         }
         else
         {
-            if (lineRenderer.enabled)
+            if (!isLockedOn)
             {
-                lineRenderer.enabled = false;
+                CheckLineOfSight();
+            }
+
+            if (isLockedOn)
+            {
+                RotateTowardsPlayer();
+
+                DrawLaserLine();
+
+                if (Time.time >= lastShotTime + shootingCooldown && HasClearLineOfSight())
+                {
+                    Shoot();
+                }
+            }
+            else
+            {
+                if (lineRenderer.enabled)
+                {
+                    lineRenderer.enabled = false;
+                }
             }
         }
     }
