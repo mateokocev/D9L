@@ -682,7 +682,30 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      sprBigWeapons_strip23_0: -6844564359042856656
+      sprBigWeapons_strip23_1: -1645569594942513170
+      sprBigWeapons_strip23_10: -6021944878490918075
+      sprBigWeapons_strip23_11: 5647695728390441162
+      sprBigWeapons_strip23_12: 1532722919846944545
+      sprBigWeapons_strip23_13: -6266621806506480215
+      sprBigWeapons_strip23_14: 4196700096477926573
+      sprBigWeapons_strip23_15: 114659233511902740
+      sprBigWeapons_strip23_16: -7475280802167318131
+      sprBigWeapons_strip23_17: 2877635058318083632
+      sprBigWeapons_strip23_18: -18982893155289387
+      sprBigWeapons_strip23_19: -2127471199614784389
+      sprBigWeapons_strip23_2: 4996345314354386238
+      sprBigWeapons_strip23_20: -223982773247532239
+      sprBigWeapons_strip23_21: -5805722425870245631
+      sprBigWeapons_strip23_22: -442515529607159572
+      sprBigWeapons_strip23_3: 2359046893733811700
+      sprBigWeapons_strip23_4: 8883231819775160142
+      sprBigWeapons_strip23_5: 425828490561843741
+      sprBigWeapons_strip23_6: -6684836245799502320
+      sprBigWeapons_strip23_7: 5444592954103156665
+      sprBigWeapons_strip23_8: -1050633448904439435
+      sprBigWeapons_strip23_9: -8175821494098151052
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
