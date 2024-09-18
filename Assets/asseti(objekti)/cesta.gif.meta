@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: da59e33a18a8f1e419733bd7c53fc788
+guid: 57b1e820368cf8d41941faf28e0cca39
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4111520836497082681
-    second: Main car_0
+      213: -8073031288369709987
+    second: cesta_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Main car_0
+      name: cesta_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 11
-        width: 27
-        height: 45
+        x: 0
+        y: 0
+        width: 242
+        height: 508
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9398602ca6e0f0930800000000000000
-      internalID: 4111520836497082681
+      spriteID: d5cfb14e0d4d6ff80800000000000000
+      internalID: -8073031288369709987
       vertices: []
       indices: 
       edges: []
@@ -133,7 +133,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Main car_0: 4111520836497082681
+      cesta_0: -8073031288369709987
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
