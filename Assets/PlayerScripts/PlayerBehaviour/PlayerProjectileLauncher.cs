@@ -6,6 +6,11 @@ public class PlayerProjectileLauncher : MonoBehaviour
     public GameObject arProjectilePrefab;
     public GameObject shotgunProjectilePrefab;
 
+    public AudioClip pistolGunshotSound;
+    public AudioClip rifleGunshotSound;
+    public AudioClip shotgunGunshotSound;
+    private AudioSource audioSource;
+
     private bool isFiringAR = false;
     private float lastARBullet;
     private float arFireDelay = 1f / 8f;
@@ -27,6 +32,8 @@ public class PlayerProjectileLauncher : MonoBehaviour
     void Start()
     {
         playerProjectileGenerator = new PlayerProjectileGenerator(pistolProjectilePrefab, arProjectilePrefab, shotgunProjectilePrefab);
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -40,16 +47,20 @@ public class PlayerProjectileLauncher : MonoBehaviour
             if (Time.time - lastPistolBullet > pistolFireDelay && lastPickedUpWeapon == WeaponType.Pistol)
             {
                 PlayerProjectileLaunch();
+                audioSource.PlayOneShot(pistolGunshotSound);
                 lastPistolBullet = Time.time;
+                
             }
 
             if (Time.time - lastShotgunBullet > shotgunFireDelay && lastPickedUpWeapon == WeaponType.Shotgun)
             {
+                
                 for (int i = 0; i < 9; i++)
                 {
                     PlayerProjectileLaunch();
                 }
                 shotgunShotCount++;
+                audioSource.PlayOneShot(shotgunGunshotSound);
                 if (shotgunShotCount >= maxShotgunShots)
                 {
                     lastPickedUpWeapon = WeaponType.Pistol;
@@ -68,6 +79,7 @@ public class PlayerProjectileLauncher : MonoBehaviour
             if (Time.time - lastARBullet >= arFireDelay)
             {
                 PlayerProjectileLaunch();
+                audioSource.PlayOneShot(rifleGunshotSound);
                 arBulletCount++;
                 if (arBulletCount >= maxARBullets)
                 {

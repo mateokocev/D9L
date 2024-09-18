@@ -13,6 +13,8 @@ public class SniperEnemy : MonoBehaviour
     public float fieldOfViewAngle = 95f;
     public float rotationSpeed = 120f;
     public LineRenderer lineRenderer;
+    public AudioClip gunshotSound;
+    private AudioSource audioSource;
     private Collider2D enemyCollider;
     private Animator animator;
     private SniperEnemyHealth sniperEnemyHealth;
@@ -26,6 +28,8 @@ public class SniperEnemy : MonoBehaviour
         animator = GetComponent<Animator>();
         sniperEnemyHealth = GetComponent<SniperEnemyHealth>();
         animator.SetBool("isDead", false);
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -128,6 +132,7 @@ public class SniperEnemy : MonoBehaviour
     {
         lastShotTime = Time.time;
         Instantiate(sniperBulletPrefab, bulletSpawnPointSniper.position, bulletSpawnPointSniper.rotation);
+        audioSource.PlayOneShot(gunshotSound);
     }
 
     private void OnDrawGizmos()

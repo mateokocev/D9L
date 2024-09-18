@@ -13,6 +13,8 @@ public class PistolEnemy : MonoBehaviour
     public float rotationSpeed = 60f;
     public LayerMask obstacleMask;
     public LayerMask playerMask;
+    public AudioClip gunshotSound;
+    private AudioSource audioSource;
     private NavMeshAgent agent;
     private Collider2D enemyCollider;
     private Animator animator;
@@ -32,6 +34,8 @@ public class PistolEnemy : MonoBehaviour
         animator = GetComponent<Animator>();
         pistolEnemyHealth = GetComponent<PistolEnemyHealth>();
         animator.SetBool("isWalking", false);
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -144,6 +148,7 @@ public class PistolEnemy : MonoBehaviour
         Vector2 directionToPlayer = (player.position - bulletSpawnPoint.position).normalized;
         GameObject bullet = Instantiate(bulletPrefab, bulletSpawnPoint.position, Quaternion.identity);
         bullet.transform.up = directionToPlayer;
+        audioSource.PlayOneShot(gunshotSound);
     }
 
     private void OnDrawGizmos()

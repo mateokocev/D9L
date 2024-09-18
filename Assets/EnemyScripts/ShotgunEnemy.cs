@@ -15,6 +15,8 @@ public class ShotgunEnemy : MonoBehaviour
     public float rotationSpeed = 60f;
     public LayerMask obstacleMask;
     public LayerMask playerMask;
+    public AudioClip gunshotSound;
+    private AudioSource audioSource;
     private NavMeshAgent agent;
     private Collider2D enemyCollider;
     private Animator animator;
@@ -34,6 +36,8 @@ public class ShotgunEnemy : MonoBehaviour
         animator = GetComponent<Animator>();
         shotgunEnemyHealth = GetComponent<ShotgunEnemyHealth>();
         animator.SetBool("isWalking", false);
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -151,6 +155,7 @@ public class ShotgunEnemy : MonoBehaviour
             Vector2 bulletDirection = RotateVector2(directionToPlayer, randomAngle);
             ShootBullet(bulletDirection);
         }
+        audioSource.PlayOneShot(gunshotSound);
     }
 
     private void ShootBullet(Vector2 direction)
