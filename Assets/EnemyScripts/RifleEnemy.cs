@@ -17,6 +17,9 @@ public class RifleEnemy : MonoBehaviour
     public LayerMask obstacleMask;
     public LayerMask playerMask;
     private NavMeshAgent agent;
+    private Collider2D enemyCollider;
+    private Animator animator;
+    private RifleEnemyHealth rifleEnemyHealth;
 
     private bool playerInSight = false;
     private bool isLockedOn = false;
@@ -28,36 +31,53 @@ public class RifleEnemy : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+
+        enemyCollider = GetComponent<Collider2D>();
+        animator = GetComponent<Animator>();
+        rifleEnemyHealth = GetComponent<RifleEnemyHealth>();
+        animator.SetBool("isWalking", false);
     }
 
     private void Update()
     {
-        if (!isLockedOn)
+        if (!rifleEnemyHealth.GetLivingState())
         {
-            CheckLineOfSight();
+            isLockedOn = false;
+            agent.isStopped = true;
+            enemyCollider.enabled = false;
         }
-
-        if (playerInSight || isLockedOn)
+        else
         {
-            isLockedOn = true;
 
-            RotateTowardsPlayer();
-
-            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-
-            if (distanceToPlayer <= shootingRange && HasClearLineOfSight())
+            if (!isLockedOn)
             {
-                agent.isStopped = true;
-
-                if (Time.time >= lastBurstTime + burstCooldown && !isShootingBurst)
-                {
-                    StartCoroutine(ShootBurst());
-                }
+                CheckLineOfSight();
             }
-            else
+
+            if (playerInSight || isLockedOn)
             {
-                agent.isStopped = false;
-                agent.SetDestination(player.position);
+                isLockedOn = true;
+
+                RotateTowardsPlayer();
+
+                float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
+                if (distanceToPlayer <= shootingRange && HasClearLineOfSight())
+                {
+                    agent.isStopped = true;
+                    animator.SetBool("isWalking", false);
+
+                    if (Time.time >= lastBurstTime + burstCooldown && !isShootingBurst)
+                    {
+                        StartCoroutine(ShootBurst());
+                    }
+                }
+                else
+                {
+                    agent.isStopped = false;
+                    animator.SetBool("isWalking", true);
+                    agent.SetDestination(player.position);
+                }
             }
         }
     }
