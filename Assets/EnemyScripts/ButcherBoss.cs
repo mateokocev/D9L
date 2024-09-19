@@ -47,6 +47,7 @@ public class ButcherBoss : MonoBehaviour
     {
         if (!butcherBossHealth.GetLivingState())
         {
+            isAttacking = false;
             isLockedOn = false;
             agent.isStopped = true;
             enemyCollider.enabled = false;

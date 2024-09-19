@@ -5,7 +5,7 @@ public class destroyCar : MonoBehaviour
     // This function is called when another collider enters this GameObject's collider
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("test mali penis");
+        Debug.Log("test");
         // Check if the object has the tag "Car"
         if (collision.gameObject.CompareTag("Car"))
         {

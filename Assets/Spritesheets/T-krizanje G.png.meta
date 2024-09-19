@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      T-krizanje G_0: 2838808865954962951
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

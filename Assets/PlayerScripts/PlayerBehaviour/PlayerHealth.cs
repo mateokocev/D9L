@@ -3,14 +3,22 @@ using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
+
     public int maxHealth = 2;
     private int currentHealth;
-
+  
     void Start()
     {
-        currentHealth = maxHealth;
-    }
 
+        currentHealth = maxHealth;
+        
+        
+    }
+    private void Update()
+    {
+        
+    }
+    
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
@@ -27,4 +35,7 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log("Player died.");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+   
+
+
 }

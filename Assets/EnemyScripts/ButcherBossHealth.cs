@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class ButcherBossHealth : MonoBehaviour
 {
@@ -29,11 +31,24 @@ public class ButcherBossHealth : MonoBehaviour
     {
         livingState = false;
 
+        // Stop all ongoing animations and set death animation
         animator.SetBool("isCharging", false);
         animator.SetBool("isWalking", false);
         animator.SetBool("inDelay", false);
         animator.SetBool("inThrow", false);
         animator.SetBool("isDead", true);
+
+        // Start the coroutine to delay the scene load by 5 seconds
+        StartCoroutine(LoadNextSceneAfterDelay(5f));
+    }
+
+    IEnumerator LoadNextSceneAfterDelay(float delay)
+    {
+        // Wait for the specified delay
+        yield return new WaitForSeconds(delay);
+
+        // Load the next scene by incrementing the current scene index
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public bool GetLivingState()

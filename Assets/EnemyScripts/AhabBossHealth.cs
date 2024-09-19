@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class AhabBossHealth : MonoBehaviour
 {
@@ -31,6 +33,16 @@ public class AhabBossHealth : MonoBehaviour
 
         animator.SetBool("isWalking", false);
         animator.SetBool("isDead", true);
+
+        // Start a coroutine to delay the scene load by 5 seconds
+        StartCoroutine(LoadNextSceneAfterDelay(5f));
+    }
+
+    IEnumerator LoadNextSceneAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        // Load the next scene by incrementing the current scene index
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public bool GetLivingState()
