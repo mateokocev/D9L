@@ -5,38 +5,52 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    // Reference to your canvases
     public GameObject mainMenuCanvas;
-    public GameObject settingsMenuCanvas;
+    public AudioClip mainMenuMusic;
 
-    // Start by showing the Main Menu and hiding others
+    private AudioSource audioSource;
+
+
     void Start()
     {
         ShowMainMenu();
-    }
-
-    public void PlayGame()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-
-    }
-
-    public void ShowSettingsMenu()
-    {
-        // Activate the settings menu and deactivate the main menu
-        mainMenuCanvas.SetActive(false);
-        settingsMenuCanvas.SetActive(true);
+        audioSource = GetComponent<AudioSource>();
+        PlayMainMenuMusic();
     }
 
     public void ShowMainMenu()
     {
-        // Activate the main menu and deactivate the settings menu
         mainMenuCanvas.SetActive(true);
-        settingsMenuCanvas.SetActive(false);
+    }
+
+    private void PlayMainMenuMusic()
+    {
+        if (audioSource && mainMenuMusic)
+        {
+            audioSource.clip = mainMenuMusic;
+            audioSource.loop = true;
+            audioSource.Play();
+        }
+    }
+
+    private void StopMainMenuMusic()
+    {
+        if (audioSource)
+        {
+            audioSource.Stop();
+        }
+    }
+
+    public void PlayGame()
+    {
+        StopMainMenuMusic();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
     }
 
     public void QuitGame()
     {
+        StopMainMenuMusic();
         Debug.Log("Exiting game...");
         Application.Quit();
     }
