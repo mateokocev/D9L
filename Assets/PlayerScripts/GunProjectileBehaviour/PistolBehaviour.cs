@@ -82,6 +82,33 @@ public class PistolBehaviour : MonoBehaviour
                 Destroy(gameObject);
                 break;
 
+            case "Butcher":
+                ButcherBossHealth butcherHealth = collision.collider.GetComponent<ButcherBossHealth>();
+                if (butcherHealth != null)
+                {
+                    butcherHealth.TakeDamage(damage);
+                }
+                Destroy(gameObject);
+                break;
+
+            case "Ahab":
+                AhabBossHealth ahabHealth = collision.collider.GetComponent<AhabBossHealth>();
+                if (ahabHealth != null)
+                {
+                    ahabHealth.TakeDamage(damage);
+                }
+                Destroy(gameObject);
+                break;
+
+            case "Wolf":
+                WolfBossHealth wolfHealth = collision.collider.GetComponent<WolfBossHealth>();
+                if (wolfHealth != null)
+                {
+                    wolfHealth.TakeDamage(damage);
+                }
+                Destroy(gameObject);
+                break;
+
             case "Wall":
                 Destroy(gameObject);
                 break;
