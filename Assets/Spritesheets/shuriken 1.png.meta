@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      shuriken 1_0: 6377797170360029221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
