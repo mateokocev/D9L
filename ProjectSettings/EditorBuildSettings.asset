@@ -9,13 +9,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: e64649478384d4b42afc96caa0a2e0c9
   - enabled: 1
-    path: Assets/Scenes/stevan.unity
+    path: Assets/Scenes/slaughterhouse.unity
     guid: 982c28bddad0c5847857e591c0c23d80
   - enabled: 1
     path: Assets/Scenes/container_ship.unity
     guid: e66f942432609be4d8f31b4791991df7
   - enabled: 1
-    path: Assets/Scenes/carChase.unity
+    path: Assets/Scenes/highway666.unity
     guid: 30b2dbb8fa59e1747bf5b5956f44689e
   - enabled: 1
     path: Assets/Scenes/office.unity
