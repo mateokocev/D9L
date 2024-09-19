@@ -132,7 +132,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kutna DG_0: 5414327273798973221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
